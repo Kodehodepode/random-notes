@@ -43,7 +43,7 @@ if ((isInStock && discount) || productQuantity > 100) {
 }
 
 
-// Method 3, assigning test result to variable first
+// Method 3, assigning test result to a variable first
 let manyProducts = (productQuantity > 100);
 
 if ((isInStock && discount) || manyProducts) {
