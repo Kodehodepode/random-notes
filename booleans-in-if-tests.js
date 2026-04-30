@@ -49,3 +49,5 @@ let manyProducts = (productQuantity > 100);
 if ((isInStock && discount) || manyProducts) {
   // Discount of 15% given.
 }
+
+// The variable is still evaluated every time the if-test is run, so it will work correctly if the value has become false, it is not the same as hard-coding "true" in the test.
