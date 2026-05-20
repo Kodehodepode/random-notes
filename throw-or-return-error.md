@@ -5,7 +5,7 @@ In JavaScript, the choice between throwing an error or returning one depends on 
 
 ## When to throw new Error()
 
-Use throw for unexpected, non-operational errors that require halting execution to prevent the application from entering an invalid state.
+Use `throw` for unexpected, non-operational errors that require halting execution to prevent the application from entering an invalid state.
 
 Best for: Programming errors (e.g., passing a string to a function that only accepts numbers), catastrophic system failures, or deep internal logic errors.
 
@@ -15,7 +15,7 @@ Advantage: Automatically provides a stack trace, which is essential for debuggin
 
 ## When to return new Error()
 
-Use return for expected, operational errors that the calling code should handle gracefully without crashing the application.
+Use `return` for expected, operational errors that the calling code should handle gracefully without crashing the application.
 
 Best for: Validation failures, "not found" results from a database, or user-facing input issues.
 
